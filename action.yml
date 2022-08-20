@@ -1,0 +1,16 @@
+name: Fast Latex To PDF Action
+description: Use texlive to render latex to pdf in a github action
+author: Luke Weiler
+branding:
+  color: green
+  icon: check-circle
+inputs:
+  input_path:
+    description: The path to the file containing the tex.
+    required: true
+  output_path:
+    description: The path to the pdf output file
+    requited: true
+runs:
+  using: node16
+  main: index.js

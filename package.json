@@ -1,0 +1,23 @@
+{
+  "name": "fast-latex-to-pdf-action",
+  "version": "1.0.0",
+  "description": "Uses texlive to render latex to pdf in a github action. Faster than current alternatives due to skipping docker setup and using pre-installed node module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukew3/fast-latex-to-pdf-action.git"
+  },
+  "author": "Luke Weiler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukew3/fast-latex-to-pdf-action/issues"
+  },
+  "homepage": "https://github.com/lukew3/fast-latex-to-pdf-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "texlive": "^1.2.0"
+  }
+}
